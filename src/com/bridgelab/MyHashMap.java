@@ -1,6 +1,6 @@
 package com.bridgelab;
 
-public class MyHashTable<K, V> {
+public class MyHashMap<K, V> {
 	MyMapNode head;
 	MyMapNode tail;
 

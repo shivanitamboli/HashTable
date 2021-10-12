@@ -1,10 +1,8 @@
 package com.bridgelab;
-
 public class HashTableMain {
 	public static void main(String[] args) {
-		System.out.println("Welcome to HashTable");
-		MyHashTable<String, Integer> hashTable = new MyHashTable();
-		String sentence = "To be or not to be";
+		MyHashMap<String, Integer> hashTable = new MyHashMap();
+		String sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
 
 		// Storing given sentence in an array.
 		// Converting the sentence to lower case and removing spaces.
